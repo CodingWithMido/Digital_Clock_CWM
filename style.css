@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+body{
+    display: grid;
+    place-items: center;
+    background: #343637;
+}
+.clockBlock{
+    background: #18191a;
+    height: 200px;
+    width: 800px;
+    line-height: 200px;
+    text-align: center;
+    border: 2px solid #0d0e0e;
+    border-radius: 25px;
+    padding: 0 50px;
+    box-shadow: -5px -5px 5px rgba(255,255,255,0.05),
+                5px 5px 5px rgba(0,0,0,0.5);
+}
+.displayClock{
+    font-family: "Philosopher",sans-serif;
+    color: #dcdcdc;
+    font-size: 100px;
+    letter-spacing: 5px;
+}
